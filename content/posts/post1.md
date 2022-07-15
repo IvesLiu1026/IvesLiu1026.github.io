@@ -11,10 +11,6 @@ categories: ["Trip"]
 <!--more-->
 # __一起走向大海吧__
 
-<!-- {{<figure src="/static/img/cam_Ives.jpg" width="300">}} -->
-<!-- <img scr='/img/cam_Ives.jpg' alt="me" width="300"> -->
-
-<!--more-->
 ## 旅程
 <!-- ![](/img/cam_Ives.jpg) -->
 ![](/img/cam_Ives.jpg)
@@ -25,5 +21,13 @@ categories: ["Trip"]
 > 一起走向大海吧，如果你也曾這樣感受。
 
 {{<youtube exVEN7hlqBg>}}
-<div class="fb-comments" data-href="http://ivesliu1026.github.io/blog/" data-width="" data-numposts="5"></div>
+
+
+<script src="https://utteranc.es/client.js"
+        repo="IvesLiu1026/commentsforIvesblog"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
 

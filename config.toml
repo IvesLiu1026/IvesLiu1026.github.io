@@ -68,6 +68,13 @@ theme = 'LoveIt'
 [menu]
     [[menu.main]]
         weight = 1
+        identifier = "about"
+        pre = ""
+        post = "<i class='fa fa-person-walking'></i>"
+        name = "About_"
+        url = "/about/"
+    [[menu.main]]
+        weight = 1
         identifier = "archives"
         # you can add extra information before the name (HTML format is supported), such as icons
         pre = ""
@@ -262,3 +269,14 @@ theme = 'LoveIt'
 #         [languages.en.params.social.Mastodon]
 #           id = "@xxxx"
 #           prefix = "https://mastodon.technology/"
+
+# [params.page.comment]
+#     enable = true
+#     [params.page.comment.utterances]
+#     enable = true
+#     # owner/repo
+#     repo = "IvesLiu1026/commentsforIvesblog"
+#     issueTerm = "pathname"
+#     label = ""
+#     lightTheme = "github-light"
+#     darkTheme = "github-dark"
