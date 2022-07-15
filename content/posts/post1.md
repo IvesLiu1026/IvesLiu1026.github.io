@@ -12,7 +12,11 @@ categories: ["Trip"]
 # __一起走向大海吧__
 
 ## 旅程
-![](/static/img/Ives.jpg)
+<!-- {{<figure src="/img/black_wallpaper.jpg" style="width: 50px">}} -->
+
+![](/img/Ives.jpg)
+
+
 
 > Loving you was sunshine, safe and sound.
 
