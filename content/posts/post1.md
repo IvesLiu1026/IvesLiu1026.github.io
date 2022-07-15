@@ -5,12 +5,15 @@ draft: false
 author: Ives Liu
 tags: ["暑假", "大一"]
 categories: ["玩的"]
+# featuredImage: "/img/cam_Ives.jpg"
 ---
 
 <!--more-->
 # 一起走向大海吧
 
-{{< figure src="img/cam_Ives.jpg" width="300" >}}
+{{<figure src="/static/img/cam_Ives.jpg" width="300">}}
+<!-- <img src="/img/cam_Ives.jpg" alt="demo" class="img-responsive"> -->
+
 
 <!--more-->
 > Loving you was sunshine, safe and sound.

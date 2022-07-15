@@ -1,6 +1,6 @@
 baseURL = 'http://ivesliu1026.github.io/blog/'
-languageCode = ['en-us', 'zh-cn']
-languageName = ['English', '中文']
+languageCode = ['en-us']
+languageName = ['English']
 title = "Ives Liu's nook"
 theme = 'LoveIt'
 
@@ -41,6 +41,29 @@ theme = 'LoveIt'
     title = "Hello, I'm Ives !"
     subtitle = 'An undergrauate student at NYCU studying Electrical and Computer Engineering'
 
+[params.Search]
+    enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+[params.Search.algolia]
+    appId = "YOUR_ALGOLIA_APP_ID"
+    apiKey = "YOUR_ALGOLIA_API_KEY"
+    indexName = "YOUR_ALGOLIA_INDEX_NAME"
+
+
+
 [menu]
     [[menu.main]]
         weight = 1
@@ -69,6 +92,7 @@ theme = 'LoveIt'
         name = "Categories"
         url = "/categories/"
         title = ""
+
     # [[menu.main]]
     #     weight = 4
     #     identifier = "about"
