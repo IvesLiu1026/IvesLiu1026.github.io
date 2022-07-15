@@ -11,11 +11,12 @@ categories: ["玩的"]
 <!--more-->
 # 一起走向大海吧
 
-{{<figure src="/static/img/cam_Ives.jpg" width="300">}}
+<!-- {{<figure src="/static/img/cam_Ives.jpg" width="300">}} -->
 <!-- <img src="/img/cam_Ives.jpg" alt="demo" class="img-responsive"> -->
-
+![](/img/cam_Ives.jpg)
 
 <!--more-->
+## 旅程
 > Loving you was sunshine, safe and sound.
 
 - 陽光就這樣照了進來，七月初的台北，比想像的還要不溫馴許多。

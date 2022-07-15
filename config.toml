@@ -4,12 +4,15 @@ languageName = ['English']
 title = "Ives Liu's nook"
 theme = 'LoveIt'
 
-
+# [params]
+#     favicon = "img/favicon.ico"
 
 [author]
     name = 'Ives Liu'
     email = 'mailto:zhiy0517xiang@gmail.com'
 
+[params.avatar]
+    path = '/img/cam_Ives.jpg'
 
 [params.header.title]
     name = "Ives Liu's nook"
