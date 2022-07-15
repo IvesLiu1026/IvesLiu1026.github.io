@@ -13,7 +13,7 @@ categories: ["Trip"]
 
 ## 旅程
 <!-- ![](/img/cam_Ives.jpg) -->
-![](/img/cam_Ives.jpg)
+![](/img/Ives.jpg)
 <!-- <img src="/img/cam_Ives.jpg"  width="300" height="300"> -->
 > Loving you was sunshine, safe and sound.
 
