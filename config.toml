@@ -11,15 +11,8 @@ theme = 'LoveIt'
     name = 'Ives Liu'
     email = 'mailto:zhiy0517xiang@gmail.com'
 
-[params.avatar]
-    path = '/img/cam_Ives.jpg'
-
 [params.header.title]
-    name = "Ives Liu's nook"
-
-[params.favicon.icon]
-    name = 'favicon.ico'
-    path = '/static/img/favicon.ico'
+    name = "Ives Liu's nook"    
 
 # [params.header]
 #     desktopMode = true
@@ -46,6 +39,7 @@ theme = 'LoveIt'
 
 [params.home.profile]
     title = "Hello, I'm Ives !"
+    avatarURL = 'img/Ives.jpg'
     subtitle = 'An undergrauate student at NYCU studying Electrical and Computer Engineering'
 
 [params.Search]
@@ -79,7 +73,7 @@ theme = 'LoveIt'
         pre = ""
         # you can add extra information after the name (HTML format is supported), such as icons
         post = "<i class='fa fa-archive'></i>"
-        name = "Archives"
+        name = "Archives_"
         url = "/posts/"
         # title will be shown when you hover on this menu link
         title = ""
@@ -88,7 +82,7 @@ theme = 'LoveIt'
         identifier = "tags"
         pre = ""
         post = "<i class='fa fa-tags'></i>"
-        name = "Tags"
+        name = "Tags_"
         url = "/tags/"
         title = ""
     [[menu.main]]
@@ -96,7 +90,7 @@ theme = 'LoveIt'
         identifier = "categories"
         pre = ""
         post = "<i class='fa fa-folder'></i>"
-        name = "Categories"
+        name = "Categories_"
         url = "/categories/"
         title = ""
 
