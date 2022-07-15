@@ -14,6 +14,8 @@ theme = 'LoveIt'
 [params.header.title]
     name = "Ives Liu's nook"    
 
+
+
 # [params.header]
 #     desktopMode = true
 #     desktopMenu = true
@@ -33,6 +35,16 @@ theme = 'LoveIt'
 [params.social.discord]
     weight = 5
     url = 'https://discord.gg/cr5qVq3g'
+[params.social.Linkedin]
+    weight = 6
+    url = 'https://www.linkedin.com/in/liu-ives-92612a245/'
+# [params.social.Reddit]
+#     weight = 7
+#     url = 'https://www.reddit.com/user/Spirited_Tune_5540'
+[params.social.Email]
+    weight = 8
+    url = 'mailto:zhiy0517xiang@gmail.com'
+
 # [params.social.email]
 #     weight = 6
 #     url = 'mailto:ivesliu.ee10@nycu.edu.tw'

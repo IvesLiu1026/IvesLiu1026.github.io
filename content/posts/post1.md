@@ -5,6 +5,8 @@ draft: false
 author: Ives Liu
 tags: ["summer vacation", "freshman"]
 categories: ["Trip"]
+image: 
+    url: "/img/cam_Ives.jpg"
 # featuredImage: "/img/cam_Ives.jpg"
 ---
 
@@ -24,13 +26,3 @@ categories: ["Trip"]
 > 一起走向大海吧，如果你也曾這樣感受。
 
 {{<youtube exVEN7hlqBg>}}
-
-
-<script src="https://utteranc.es/client.js"
-        repo="IvesLiu1026/commentsforIvesblog"
-        issue-term="pathname"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-</script>
-
