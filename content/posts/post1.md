@@ -1,19 +1,22 @@
 ---
-title: "First post"
-date: 2022-07-15T13:34:46+08:00
+title: "南希肯恩"
+date: 2022-07-09T13:34:46+08:00
 draft: false
 author: Ives Liu
+tags: ["暑假", "大一"]
+categories: ["玩的"]
 ---
 
 <!--more-->
-# Hello world.
+# 一起走向大海吧
 
-## This is heading two.
-This is a paragraph.
+{{< figure src="img/cam_Ives.jpg" width="300" >}}
 
-### This is heading three.
+<!--more-->
+> Loving you was sunshine, safe and sound.
 
-#### hello
-> This is quote.
-- This is a list.
+- 陽光就這樣照了進來，七月初的台北，比想像的還要不溫馴許多。
+> 一起走向大海吧，如果你也曾這樣感受。
+
+{{<youtube exVEN7hlqBg>}}
 
