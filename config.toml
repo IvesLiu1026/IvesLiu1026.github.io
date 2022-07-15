@@ -14,6 +14,10 @@ theme = 'LoveIt'
 [params.header.title]
     name = "Ives Liu's nook"
 
+[params.favicon.icon]
+    name = 'favicon.ico'
+    path = '/static/img/favicon.ico'
+
 # [params.header]
 #     desktopMode = true
 #     desktopMenu = true
