@@ -12,9 +12,8 @@ categories: ["Trip"]
 # __一起走向大海吧__
 
 ## 旅程
-<!-- ![](/img/cam_Ives.jpg) -->
-![](/img/Ives.jpg)
-<!-- <img src="/img/cam_Ives.jpg"  width="300" height="300"> -->
+![](/static/img/Ives.jpg)
+
 > Loving you was sunshine, safe and sound.
 
 - 陽光就這樣照了進來，七月初的台北，比想像的還要不溫馴許多。
