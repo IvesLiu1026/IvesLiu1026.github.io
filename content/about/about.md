@@ -2,7 +2,6 @@
 title: "About me"
 date: 2022-07-09T13:34:46+08:00
 author: Ives Liu
-toc: true
 ---
 # YooooHooo, I'm Ives!
 
@@ -34,7 +33,7 @@ My name is ___Ives Liu ( 劉宇翔 )___, and I am currently a student at ___NYCU
 - ___Table tennis___ which I started during I was about 9 years old.
 - ___MUN___ which I started my trip as I was in senior high.
 
-# Contact
+## Contact
+- You can see my contact info by clicking [here](https://ivesliu1026.github.io).
 
-[Gmail]('zhiy0517xiang@gmail.com')
 
