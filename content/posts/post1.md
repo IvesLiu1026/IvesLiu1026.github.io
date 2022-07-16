@@ -5,16 +5,16 @@ draft: false
 author: Ives Liu
 tags: ["summer vacation", "freshman"]
 categories: ["Trip"]
-image: 
-    url: "/img/cam_Ives.jpg"
-# featuredImage: "/img/cam_Ives.jpg"
+featuredImagePreview: '/img/blog_banner3.webp'
 ---
+
+
+
 
 <!--more-->
 # __一起走向大海吧__
 
 ## 旅程
-<!-- {{<figure src="/img/black_wallpaper.jpg" style="width: 50px">}} -->
 
 ![](/img/Ives.jpg)
 

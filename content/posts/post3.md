@@ -5,5 +5,6 @@ draft: false
 author: Ives Liu
 tags: ["School", "freshman"]
 categories: ["NYCU"]
+featuredImagePreview: '/img/blog_banner2.jpg'
 ---
 

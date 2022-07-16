@@ -4,55 +4,30 @@ languageName = ['English']
 title = "Ives Liu's nook"
 theme = 'LoveIt'
 
-# [params]
-#     favicon = "img/favicon.ico"
-
 [author]
     name = 'Ives Liu'
     email = 'mailto:zhiy0517xiang@gmail.com'
 
 [params.header.title]
     name = "Ives Liu's nook"    
-
-
-
-# [params.header]
-#     desktopMode = true
-#     desktopMenu = true
-
-[params.social.github]
-    weight = 1
-    url = 'https://github.com/IvesLiu1026'
-[params.social.instagram]
-    weight = 2
-    url = 'https://www.instagram.com/iveees._/?theme=dark'
-[params.social.twitter]
-    weight = 3
-    url = 'https://twitter.com/Iveees_'
-[params.social.facebook]
-    weight = 4
-    url = 'https://www.facebook.com/profile.php?id=100008267281647'
-[params.social.discord]
-    weight = 5
-    url = 'https://discord.gg/cr5qVq3g'
-[params.social.Linkedin]
-    weight = 6
-    url = 'https://www.linkedin.com/in/liu-ives-92612a245/'
-# [params.social.Reddit]
-#     weight = 7
-#     url = 'https://www.reddit.com/user/Spirited_Tune_5540'
-[params.social.Email]
-    weight = 8
-    url = 'mailto:zhiy0517xiang@gmail.com'
-
-# [params.social.email]
-#     weight = 6
-#     url = 'mailto:ivesliu.ee10@nycu.edu.tw'
-
+    
 [params.home.profile]
-    title = "Hello, I'm Ives !"
+    title = "Hello, I'm Ives Liu!"
     avatarURL = 'img/Ives.jpg'
     subtitle = 'An undergrauate student at NYCU studying Electrical and Computer Engineering'
+        
+
+
+[params.social]
+    github = 'https://github.com/IvesLiu1026'
+    instagram = 'https://www.instagram.com/iveees._/?theme=dark'
+    facebook = 'https://www.facebook.com/profile.php?id=100008267281647'
+    discord = 'https://discord.gg/cr5qVq3g'
+    twitter = 'https://twitter.com/Iveees_'
+    email = 'mailto:zhiy0517xiang@gmail.com'
+    linkedin = 'https://www.linkedin.com/in/liu-ives-92612a245/'
+
+
 
 [params.Search]
     enable = true
@@ -86,7 +61,7 @@ theme = 'LoveIt'
         name = "About_"
         url = "/about/"
     [[menu.main]]
-        weight = 1
+        weight = 2
         identifier = "archives"
         # you can add extra information before the name (HTML format is supported), such as icons
         pre = ""
@@ -97,7 +72,7 @@ theme = 'LoveIt'
         # title will be shown when you hover on this menu link
         title = ""
     [[menu.main]]
-        weight = 2
+        weight = 3
         identifier = "tags"
         pre = ""
         post = "<i class='fa fa-tags'></i>"
@@ -105,190 +80,10 @@ theme = 'LoveIt'
         url = "/tags/"
         title = ""
     [[menu.main]]
-        weight = 3
+        weight = 4
         identifier = "categories"
         pre = ""
         post = "<i class='fa fa-folder'></i>"
         name = "Categories_"
         url = "/categories/"
         title = ""
-
-    # [[menu.main]]
-    #     weight = 4
-    #     identifier = "about"
-    #     pre = ""
-    #     post = ""
-    #     name = "About"
-    #     url = "/about/"
-    #     title = ""
-    # [[menu.main]]
-    #     weight = 5
-    #     identifier = "archives"
-    #     pre = ""
-    #     post = ""
-    #     name = "Archives"
-    #     url = "/archives/"
-    #     title = ""
-
-# [languages]
-#   [languages.en]
-#     weight = 1
-#     # language code
-#     languageCode = "en"
-#     # language name
-#     languageName = "English"
-#     # whether to include Chinese/Japanese/Korean
-#     hasCJKLanguage = false
-#     # default amount of posts in each pages
-#     paginate = 12
-#     # [UA-XXXXXXXX-X] google analytics code
-#     googleAnalytics = ""
-#     # copyright description used only for seo schema
-#     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-#     # Menu config
-
-#     [languages.en.params]
-#       # site description
-#       description = "About LoveIt Theme"
-#       # site keywords
-#       keywords = ["Theme", "Hugo"]
-#       # App icon config
-#       [languages.en.params.app]
-#         # optional site title override for the app when added to an iOS home screen or Android launcher
-#         title = "LoveIt"
-#         # whether to omit favicon resource links
-#         noFavicon = false
-#         # modern SVG favicon to use in place of older style .png and .ico files
-#         svgFavicon = ""
-#         # Android browser theme color
-#         themeColor = "#ffffff"
-#         # Safari mask icon color
-#         iconColor = "#5bbad5"
-#         # Windows v8-10 tile color
-#         tileColor = "#da532c"
-#       # Search config
-#       [languages.en.params.search]
-#         enable = true
-#         # type of search engine ("lunr", "algolia")
-#         type = "algolia"
-#         # max index length of the chunked content
-#         contentLength = 4000
-#         # placeholder of the search bar
-#         placeholder = ""
-#         # max number of results length
-#         maxResultLength = 10
-#         # snippet length of the result
-#         snippetLength = 30
-#         # HTML tag name of the highlight part in results
-#         highlightTag = "em"
-#         # whether to use the absolute URL based on the baseURL in search index
-#         absoluteURL = false
-#         [languages.en.params.search.algolia]
-#           index = "index.en"
-#           appID = "PASDMWALPK"
-#           searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-#       # Home page config
-#       [languages.en.params.home]
-#         # amount of RSS pages
-#         rss = 10
-#         # Home page profile
-#         [languages.en.params.home.profile]
-#           enable = true
-#           # Gravatar Email for preferred avatar in home page
-#           gravatarEmail = ""
-#           # URL of avatar shown in home page
-#           avatarURL = "/images/me/punch.jpeg"
-#           # title shown in home page (HTML format is supported)
-#           title = ""
-#           # subtitle shown in home page
-#           subtitle = "TieCheng's blog"
-#           # whether to use typeit animation for subtitle
-#           typeit = true
-#           # whether to show social links
-#           social = true
-#           # disclaimer (HTML format is supported)
-#           disclaimer = ""
-#         # Home page posts
-#         [languages.en.params.home.posts]
-#           enable = true
-#           # special amount of posts in each home posts page
-#           paginate = 6
-#       # Social config in home page
-#       [languages.en.params.social]
-#         GitHub = "cityiron"
-#         Linkedin = ""
-#         Twitter = ""
-#         Instagram = ""
-#         Facebook = ""
-#         Telegram = ""
-#         Medium = ""
-#         Gitlab = ""
-#         Youtubelegacy = ""
-#         Youtubecustom = ""
-#         Youtubechannel = ""
-#         Tumblr = ""
-#         Quora = ""
-#         Keybase = ""
-#         Pinterest = ""
-#         Reddit = ""
-#         Codepen = ""
-#         FreeCodeCamp = ""
-#         Bitbucket = ""
-#         Stackoverflow = "12129106/cheng-tie"
-#         Weibo = ""
-#         Odnoklassniki = ""
-#         VK = ""
-#         Flickr = ""
-#         Xing = ""
-#         Snapchat = ""
-#         Soundcloud = ""
-#         Spotify = ""
-#         Bandcamp = ""
-#         Paypal = ""
-#         Fivehundredpx = ""
-#         Mix = ""
-#         Goodreads = ""
-#         Lastfm = ""
-#         Foursquare = ""
-#         Hackernews = ""
-#         Kickstarter = ""
-#         Patreon = ""
-#         Steam = ""
-#         Twitch = ""
-#         Strava = ""
-#         Skype = ""
-#         Whatsapp = ""
-#         Zhihu = "tietiecheng"
-#         Douban = ""
-#         Angellist = ""
-#         Slidershare = ""
-#         Jsfiddle = ""
-#         Deviantart = ""
-#         Behance = ""
-#         Dribbble = ""
-#         Wordpress = ""
-#         Vine = ""
-#         Googlescholar = ""
-#         Researchgate = ""
-#         Thingiverse = ""
-#         Devto = ""
-#         Gitea = ""
-#         XMPP = ""
-#         Matrix = ""
-#         Bilibili = ""
-#         Email = "ironcity.hz@gmail.com"
-#         RSS = true
-#         [languages.en.params.social.Mastodon]
-#           id = "@xxxx"
-#           prefix = "https://mastodon.technology/"
-
-# [params.page.comment]
-#     enable = true
-#     [params.page.comment.utterances]
-#     enable = true
-#     # owner/repo
-#     repo = "IvesLiu1026/commentsforIvesblog"
-#     issueTerm = "pathname"
-#     label = ""
-#     lightTheme = "github-light"
-#     darkTheme = "github-dark"

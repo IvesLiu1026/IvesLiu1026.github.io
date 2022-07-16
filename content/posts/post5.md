@@ -5,5 +5,6 @@ draft: false
 author: Ives Liu
 tags: ["Summer vacation", "School"]
 categories: ["NYCU"]
+featuredImagePreview: '/img/blog_banner5.jpg'
 ---
 
