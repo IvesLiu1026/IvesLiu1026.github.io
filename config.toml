@@ -30,7 +30,7 @@ theme = 'LoveIt'
 [params.social.email]
     weight = 3
     name = 'Email'
-    url = 'mailto:zhiy0517xiang'
+    url = 'mailto:zhiy0517xiang@gmail.com'
 [params.social.facebook]
     weight = 4    
     name = 'Facebook'
@@ -78,7 +78,7 @@ theme = 'LoveIt'
         identifier = "about"
         pre = ""
         post = "<i class='fa fa-person-walking'></i>"
-        name = "About_"
+        name = "About"
         url = "/about/"
     [[menu.main]]
         weight = 2
@@ -87,7 +87,7 @@ theme = 'LoveIt'
         pre = ""
         # you can add extra information after the name (HTML format is supported), such as icons
         post = "<i class='fa fa-archive'></i>"
-        name = "Archives_"
+        name = "Archives"
         url = "/posts/"
         # title will be shown when you hover on this menu link
         title = ""
@@ -96,7 +96,7 @@ theme = 'LoveIt'
         identifier = "tags"
         pre = ""
         post = "<i class='fa fa-tags'></i>"
-        name = "Tags_"
+        name = "Tags"
         url = "/tags/"
         title = ""
     [[menu.main]]
@@ -104,6 +104,13 @@ theme = 'LoveIt'
         identifier = "categories"
         pre = ""
         post = "<i class='fa fa-folder'></i>"
-        name = "Categories_"
+        name = "Categories"
         url = "/categories/"
+        title = ""
+    [[menu.main]]
+        weight = 5
+        identifier = "github"
+        pre = "<i class='fab fa-github'></i>"
+        post = ""
+        url = "https://github.com/IvesLiu1026"
         title = ""
