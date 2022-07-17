@@ -23,7 +23,6 @@ theme = 'LoveIt'
     weight = 1
     name = 'Github'
     url = 'https://github.com/IvesLiu1026'
-    icon = 'fa-github'
 [params.social.instagram]
     weight = 2
     name = 'Instagram'
@@ -32,27 +31,22 @@ theme = 'LoveIt'
     weight = 3
     name = 'Email'
     url = 'mailto:zhiy0517xiang'
-    icon = 'fa-envelope'
 [params.social.facebook]
     weight = 4    
     name = 'Facebook'
     url = 'https://www.facebook.com/profile.php?id=100008267281647'
-    icon = 'fa-facebook'
 [params.social.discord]
     weight = 5
     name = 'Discord'
     url = 'https://discord.gg/cr5qVq3g'
-    icon = 'fa-discord'
 [params.social.twitter]
     weight = 6
     name = 'Twitter'
     url = 'https://twitter.com/Iveees_'
-    icon = 'fa-twitter'
 [params.social.linkedin]
     weight = 7
     name = 'LinkedIn'
     url = 'https://www.linkedin.com/in/liu-ives-92612a245/'
-    icon = 'fa-linkedin'
 
 
 [params.Search]
