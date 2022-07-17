@@ -18,15 +18,41 @@ theme = 'LoveIt'
         
 
 
-[params.social]
-    github = 'https://github.com/IvesLiu1026'
-    instagram = 'https://www.instagram.com/iveees._/?theme=dark'
-    facebook = 'https://www.facebook.com/profile.php?id=100008267281647'
-    discord = 'https://discord.gg/cr5qVq3g'
-    twitter = 'https://twitter.com/Iveees_'
-    email = 'mailto:zhiy0517xiang@gmail.com'
-    linkedin = 'https://www.linkedin.com/in/liu-ives-92612a245/'
 
+[params.social.github]
+    weight = 1
+    name = 'Github'
+    url = 'https://github.com/IvesLiu1026'
+    icon = 'fa-github'
+[params.social.instagram]
+    weight = 2
+    name = 'Instagram'
+    url = 'https://www.instagram.com/iveees._/?theme=dark'
+[params.social.email]
+    weight = 3
+    name = 'Email'
+    url = 'mailto:zhiy0517xiang'
+    icon = 'fa-envelope'
+[params.social.facebook]
+    weight = 4    
+    name = 'Facebook'
+    url = 'https://www.facebook.com/profile.php?id=100008267281647'
+    icon = 'fa-facebook'
+[params.social.discord]
+    weight = 5
+    name = 'Discord'
+    url = 'https://discord.gg/cr5qVq3g'
+    icon = 'fa-discord'
+[params.social.twitter]
+    weight = 6
+    name = 'Twitter'
+    url = 'https://twitter.com/Iveees_'
+    icon = 'fa-twitter'
+[params.social.linkedin]
+    weight = 7
+    name = 'LinkedIn'
+    url = 'https://www.linkedin.com/in/liu-ives-92612a245/'
+    icon = 'fa-linkedin'
 
 
 [params.Search]
