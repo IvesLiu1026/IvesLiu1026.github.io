@@ -3,12 +3,11 @@ title: "南希肯恩"
 date: 2022-07-09T13:34:46+08:00
 draft: false
 author: Ives Liu
+description: "臺北行---南希肯恩"
 tags: ["summer vacation", "freshman"]
 categories: ["Trip"]
 featuredImagePreview: '/img/blog_banner3.webp'
 ---
-
-
 
 
 <!--more-->
